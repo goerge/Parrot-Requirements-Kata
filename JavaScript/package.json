@@ -1,0 +1,16 @@
+{
+  "name": "parrot",
+  "version": "1.0.0",
+  "description": "Parrot Requirements Kata",
+  "author": "Görge Albrecht",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "4.1.4",
+    "@types/mocha": "5.2.5",
+    "chai": "~4.1",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
