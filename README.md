@@ -1,4 +1,4 @@
-# Parrot Refactoring Kata
+# Parrot Requirements Kata
 
 Small requirements finding exercise inspired by the [Parrot Refactoring Kata](https://github.com/emilybache/Parrot-Refactoring-Kata).
 
