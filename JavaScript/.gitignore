@@ -12,3 +12,4 @@ coverage
 .idea
 *.iml
 *.iwr
+/.nyc_output/
