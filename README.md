@@ -2,9 +2,11 @@
 
 Small requirements finding exercise inspired by the [Parrot Refactoring Kata](https://github.com/emilybache/Parrot-Refactoring-Kata).
 
-Carefully analyse the [requirements](ParrotRequirements.txt) of the little program found in the source folder. 
+## Your Task
+
+Carefully analyse the [requirements](ParrotRequirements.txt) of the little program found in the source folder.
 Please write executable specifications in the platform specific unit testing framework without looking at the production code.
-When all test cases are done, run a coverage test to verify that all production code is tested.
+When all test cases are done, check the code coverage to verify that all production code is tested.
 
 ## Acknowledgements
 

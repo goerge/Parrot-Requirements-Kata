@@ -1,17 +1,23 @@
-========================================
+=================================
 Parrot Requirements Specification
-========================================
+=================================
 
-After years of ornithology studies we need an app which persists our current knowledge of Parrots and the flight capabilities of the different kinds we discovered.
+After years of ornithology studies we need an application which persists our
+current knowledge of parrots and the flight capabilities of the different
+kinds we discovered.
 
-Whenever we measured the speed of an ordinary european parrot it was always constant 12 mi/h.
-The Norwegian Blues base speed differs all the time. But we found a correlation between the loaded voltage of this kind and the base speed which is roughly the product of the two values. 
+Whenever we measured the speed of an ordinary European parrot it was always
+constant 12 miles/h.
+The Norwegian Blues base speed differs all the time. But we found a
+correlation between the loaded voltage of this kind and the base speed which
+is roughly the product of the two values.
 
-When we travelled to Africa to study local parrots we were amazed that a lot of parrots carried one or more coconuts. 
-Of course the parrot base speed was significantly lower when they were loaded with coconuts. 
-For every coconut we measured a speed reduction of nine miles. 
-We observed a lot of parrots resting for the major time of the day. 
+When we travelled to Africa to study local parrots we were amazed that a lot
+of parrots carried one or more coconuts.
+Of course the parrot base speed was significantly lower when they were loaded with coconuts.
+For every coconut we measured a speed reduction of nine miles.
+We observed a lot of parrots resting for the major time of the day.
 Maybe flying around loaded with coconuts is very exhausting, even for the african parrot.
 
-Interestingly the speed of a Norwegian parrot never exceeds 24 mi/h. 
+Interestingly the speed of a Norwegian parrot never exceeds 24 miles/h.
 Obsolete to note that when it had been nailed to its bar it just stayed there.
