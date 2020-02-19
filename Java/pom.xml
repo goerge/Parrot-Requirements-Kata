@@ -58,6 +58,30 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.pitest</groupId>
+                <artifactId>pitest-maven</artifactId>
+                <version>1.4.11</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.pitest</groupId>
+                        <artifactId>pitest-junit5-plugin</artifactId>
+                        <version>0.11</version>
+                    </dependency>
+                </dependencies>
+                <configuration>
+                    <targetClasses>
+                        <param>parrot.*</param>
+                    </targetClasses>
+                    <targetTests>
+                        <param>parrot.*</param>
+                    </targetTests>
+                    <mutators>
+                        <mutator>ALL</mutator>
+                    </mutators>
+                    <threads>4</threads>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
