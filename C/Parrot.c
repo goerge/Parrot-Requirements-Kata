@@ -3,13 +3,12 @@
 #define MIN(x, y) (((x) < (y)) ? (x) : (y))
 #define MAX(x, y) (((x) > (y)) ? (x) : (y))
 
-Parrot* init_parrot(Parrot* parrot, ParrotType parrotType, int numberOfCoconuts, float voltage, bool isNailed)
+void init_parrot(Parrot* parrot, ParrotType parrotType, int numberOfCoconuts, float voltage, bool isNailed)
 {
     parrot->parrotType = parrotType;
     parrot->numberOfCoconuts = numberOfCoconuts;
     parrot->voltage = voltage;
     parrot->isNailed = isNailed;
-    return parrot;
 }
 
 float get_base_speed() {

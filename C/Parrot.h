@@ -9,5 +9,5 @@ typedef struct
     bool isNailed;
 } Parrot;
 
-extern Parrot* init_parrot(Parrot* parrot, ParrotType parrotType, int numberOfCoconuts, float voltage, bool isNailed);
+extern void init_parrot(Parrot* parrot, ParrotType parrotType, int numberOfCoconuts, float voltage, bool isNailed);
 extern float get_speed(Parrot *parrot);
