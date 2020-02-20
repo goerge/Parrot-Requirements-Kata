@@ -1,4 +1,4 @@
-#include "assert.h"
+#include <assert.h>
 #include "Parrot.h"
 #define MIN(x, y) (((x) < (y)) ? (x) : (y))
 #define MAX(x, y) (((x) > (y)) ? (x) : (y))
@@ -33,7 +33,7 @@ float get_speed(Parrot *parrot)
         case NORWEGIAN_BLUE:
             return (parrot->isNailed) ? 0 : get_base_speed_with_voltage(parrot->voltage);
         default:
-            // Should be unreachable
+            /* Should be unreachable */
             assert(false);
             return -1;
     }
