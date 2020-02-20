@@ -1,4 +1,5 @@
-enum ParrotType { EUROPEAN, AFRICAN, NORWEGIAN_BLUE};
+#include "stdbool.h"
+typedef enum { EUROPEAN, AFRICAN, NORWEGIAN_BLUE } ParrotType;
 
 typedef struct
 {
