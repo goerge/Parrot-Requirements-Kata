@@ -6,6 +6,7 @@
 
 static void test_foo(void** state)
 {
+    (void)state; /* unused */
     Parrot parrot;
     float speed;
 
