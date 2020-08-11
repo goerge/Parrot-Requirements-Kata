@@ -1,0 +1,29 @@
+{
+    "name": "code-mentor/parrot",
+    "description": "Parrot Requirements Kata",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Görge Albrecht"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Parrot\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "tests": "phpunit"
+    }
+}
