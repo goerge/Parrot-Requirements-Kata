@@ -17,3 +17,5 @@ src/github.com
 
 # GoLand
 .idea/
+
+go.sum
