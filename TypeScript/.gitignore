@@ -1,7 +1,6 @@
 .DS_Store
-.idea
 
-# Node
+# NPM
 node_modules/
 npm-debug.log
 typings
@@ -14,3 +13,14 @@ test/**/*.js.map
 dist/
 coverage/
 .nyc_output/
+.stryker-tmp
+
+# Eclipse
+.project
+.settings
+.classpath
+
+# IDEA
+.idea
+*.iml
+*.iwr

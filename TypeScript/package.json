@@ -1,7 +1,7 @@
 {
-  "name": "parrot-refactoring-kata",
-  "version": "0.0.1",
-  "description": "parrot refactoring kata",
+  "name": "parrot",
+  "version": "1.0.0",
+  "description": "Parrot Requirements Kata",
   "author": "Peter 'Code Cop' Kofler",
   "dependencies": {},
   "devDependencies": {
@@ -10,13 +10,14 @@
     "@types/node": "10.11.2",
     "chai": "4.1.2",
     "mocha": "5.2.0",
+    "nyc": "15.0.0",
     "source-map-support": "0.5.9",
     "ts-node": "7.0.1",
     "tslint": "5.8.0",
     "typescript": "3.0.3"
   },
   "scripts": {
-    "test": "mocha --opts ./mocha.opts",
+    "test": "nyc --reporter=html mocha --opts ./mocha.opts",
     "build": "tsc",
     "lint": "tslint --project ."
   }
