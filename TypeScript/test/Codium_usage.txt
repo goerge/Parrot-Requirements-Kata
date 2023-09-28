@@ -1,0 +1,17 @@
+> List necessary test cases for the selected block
+
+schon wieder private Methoden und Konstanten. Nein.
+
+> ignore items 1 and 2, 4, 5 and 6 - these will be tested implicitly. Also they are private. Not testing private methods
+
+> use getSpeed, do not test using private methods
+
+> Create test cases
+
+Tipp: Open in Editor and split Editor
+
+4 Testfälle
+* European (ist ja ok)
+* African mit 2 Coconuts - falscher Expect
+* nailed Norwegian (ok)
+* middle voltage Norwegian (ok)
