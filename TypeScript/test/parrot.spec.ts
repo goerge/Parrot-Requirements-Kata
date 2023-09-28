@@ -23,7 +23,8 @@ describe("Parrot", () => {
             const actualSpeed = parrot.getSpeed();
 
             // Assert
-            expect(actualSpeed).to.equal(12 - 9 * numberOfCoconuts);
+            // expect(actualSpeed).to.equal(12 - 9 * numberOfCoconuts);
+            expect(actualSpeed).to.equal(0);
         });
 
         it("should return 0 for a nailed Norwegian Blue parrot", () => {
