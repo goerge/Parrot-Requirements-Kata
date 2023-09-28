@@ -16,6 +16,10 @@ Tipp: Open in Editor and split Editor
 * nailed Norwegian (ok)
 * middle voltage Norwegian (ok)
 
+---
+
+Style
+
 > No, do not duplicate the production code to calculate the expected value,
 > just use constants for expectedSpeed in the tests
 - Math.min(24, voltage * 12) is duplication of production logic, why not just use 6?
@@ -27,3 +31,73 @@ kann er nicht
 > move calculation/declaration of expected values to assert block
 (observation)
 Das wird mühsam, er nimmt immer private Methoden...
+!!! und hat es dann wieder verloren, ok egal.
+
+---
+
+Werte
+3 OK
+1 geht nicht
+!!! expected speed is 0 for 2 coconuts
+
+> Test for "base speed minus load factor multiplied by number
+  of coconuts for an African parrot" fails, actual is 0 not -6
+> this is the same.
+> expected speed is 0 for 2 coconuts
+(observation)
+er ist nicht einsichtig
+
+---
+
+Nur 4 Testfälle
+
+Coverage
+-> hat alles gecovered. Aber es gibt unsichtbare IFs
+WO? das "max" und das "min"
+
+> Do I need more test cases?
+1. African parrot with no coconuts (numberOfCoconuts = 0). The expected speed should be equal to the base speed (12).
+   JA (baseSpeed)
+2. European parrot with a negative numberOfCoconuts. The expected behavior may vary depending on your implementation. You may choose to handle negative values by treating them as zero or by throwing an error. Add a test case that verifies the expected behavior.
+   sinnlos
+3. Norwegian Blue parrot with a negative voltage (voltage = -0.5). The expected speed should be 0 since a negative voltage would result in a speed of 0.
+   gute Idee, ist aber nicht so. Ist out of scope
+4. Norwegian Blue parrot with a voltage greater than 2 (voltage = 2.5). The expected speed should be the maximum allowed speed of 24, as specified by the Math.min(24, voltage * 12) calculation.
+   JA (max)
+
+> create these new tests in style with AAA and expected value defined in Assert block
+
+OK, der negative war nicht richtig.
+
+---
+
+Vergleich mit allen Testcases
+
+hat 7 Testfälle
+* European ... besser wäre "1, 1.0, false"
+* African mit 0 Coconuts
+  -> fehlt mit 1 wegen Logik
+* African mit 2 Coconuts, tested MIN
+
+* nailed Norwegian
+
+* middle voltage Norwegian
+* max voltage Norwegian
+  -> fehlt overload voltage (für MAX)
+* negative voltage Norwegian
+
+könnte noch Randfälle haben. Mal sehen
+
+---
+
+händisch nachbessern
+
+> Create test cases using maximum values of JS/TS for voltage and coconuts
+> only show new tests in style with AAA and expected value defined in Assert block
+
+und African wieder falsch generiert. Seufz.
+
+* max voltage
+* max coconuts
+
+OK
