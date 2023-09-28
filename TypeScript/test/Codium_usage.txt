@@ -15,3 +15,15 @@ Tipp: Open in Editor and split Editor
 * African mit 2 Coconuts - falscher Expect
 * nailed Norwegian (ok)
 * middle voltage Norwegian (ok)
+
+> No, do not duplicate the production code to calculate the expected value,
+> just use constants for expectedSpeed in the tests
+- Math.min(24, voltage * 12) is duplication of production logic, why not just use 6?
+(observation)
+kann er nicht
+!!! muss man selber machen, schlecht
+
+> format according AAA
+> move calculation/declaration of expected values to assert block
+(observation)
+Das wird mühsam, er nimmt immer private Methoden...
