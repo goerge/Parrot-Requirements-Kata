@@ -101,3 +101,13 @@ und African wieder falsch generiert. Seufz.
 * max coconuts
 
 OK
+
+---
+
+Work + Assess 1 hour
+
+---
+
+20230928 Parrot-Requirements-Kata
+- auch einfach, aber war schwerer für ihm 3 switch, 1 IF und 2 min/max, also (7 branches)
+- soso gewesen, 75%
