@@ -1,0 +1,17 @@
+{
+  "name": "parrot",
+  "version": "0.1.0",
+  "description": "Parrot Requirements Kata",
+  "author": "Peter 'Code Cop' Kofler",
+  "readme": "README.md",
+  "protos": [
+    "Parrot",
+    "ParrotType"
+  ],
+  "dependencies": {
+    "libs": [],
+    "headers": [],
+    "protos": [],
+    "packages": []
+  }
+}
